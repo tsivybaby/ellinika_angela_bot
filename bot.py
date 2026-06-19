@@ -11,7 +11,7 @@ from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 
 BASE_DIR = Path(__file__).resolve().parent
 DB_PATH = BASE_DIR / "bot.db"
-WORDS_CSV = BASE_DIR / "data" / "words.csv"
+WORDS_CSV = BASE_DIR / "words.csv"
 
 TOKEN = os.getenv("BOT_TOKEN")
 if not TOKEN:
